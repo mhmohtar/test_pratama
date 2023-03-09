@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-09 01:14:59 --> Undefined variable: arr
+in APPPATH\Controllers\Login.php on line 58.
+ 1 APPPATH\Controllers\Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: arr', 'APPPATH\\Controllers\\Login.php', 58, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

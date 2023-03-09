@@ -1,0 +1,111 @@
+CRITICAL - 2023-03-08 22:07:02 --> Call to undefined method App\Controllers\Register::responseCreated()
+in APPPATH\Controllers\Register.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 22:29:12 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 41 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(41): Firebase\JWT\JWT::encode([...], 'csh65')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:14:34 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 41 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(41): Firebase\JWT\JWT::encode([...], 'csh65')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:14:50 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 41 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(41): Firebase\JWT\JWT::encode([...], 'csh65')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:15:55 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 41 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(41): Firebase\JWT\JWT::encode([...], 'csh65')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:24:37 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 82 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(82): Firebase\JWT\JWT::encode([...], 'YOUR_SECRET_KEY')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:25:43 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 83 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(83): Firebase\JWT\JWT::encode([...], 'YOUR_SECRET_KEY')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:32:34 --> Trait 'App\Controllers\ResponseTrait' not found
+in APPPATH\Controllers\Me.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-08 23:33:19 --> Trait 'App\Controllers\ResponseTrait' not found
+in APPPATH\Controllers\Me.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-08 23:33:23 --> Trait 'App\Controllers\ResponseTrait' not found
+in APPPATH\Controllers\Me.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-08 23:35:28 --> Class 'Config\JWT\JWT' not found
+in APPPATH\Controllers\Me.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Me->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:46:26 --> Undefined variable: output
+in APPPATH\Controllers\Login.php on line 94.
+ 1 APPPATH\Controllers\Login.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: output', 'APPPATH\\Controllers\\Login.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:47:39 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 85 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(85): Firebase\JWT\JWT::encode([...], 'YOUR_SECRET_KEY')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:54:15 --> Argument 3 passed to Firebase\JWT\JWT::encode() must be of the type string, array given, called in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 42
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(42): Firebase\JWT\JWT::encode([...], 'csh65', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:56:09 --> Undefined variable: issuer_claim
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: issuer_claim', 'APPPATH\\Controllers\\Login.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 23:56:26 --> Argument 3 passed to Firebase\JWT\JWT::encode() must be of the type string, array given, called in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 62
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(62): Firebase\JWT\JWT::encode([...], 'csh65', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
