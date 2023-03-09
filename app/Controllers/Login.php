@@ -38,8 +38,7 @@ class Login extends ResourceController
             'uid' => $user['id'],
             'username' => $user['username'],
         );
-        $params = "HS256";  
-        $token = JWT::encode($payload, $key, $params);
+        $token = JWT::encode($payload, $key, 'HS256');
         $output = [
             'token' => $token,
             'message' => 'Successful login'
@@ -52,21 +51,22 @@ class Login extends ResourceController
     {
         $key = getenv('TOKEN_SECRET');
         $header = $this->request->getServer('HTTP_AUTHORIZATION');
-        if(!$header) return $this->failUnauthorized('Token Required');
-        //$token = explode(' ', $header)[1];  
-        $token = explode(" ", $header);  
-        $jwt = $token[1];
-        //print_r($jwt);
+        if (!$header) {
+            return $this->failUnauthorized('Token Required');
+        }
+        $token = explode(' ', $header)[1];
         try {
-            $decoded = JWT::decode($token, $key, ['HS256']);
+            $decoded = JWT::decode($token, $key, array('HS256'));
+            $userId = $decoded->uid;
+            $username = $decoded->username;
             $response = [
-                'id' => $decoded->uid,
-                'username' => $decoded->username
+                'id' => $userId,
+                'username' => $username
             ];
+
             return $this->respond($response)->setStatusCode(200);
-            
-        } catch (\Throwable $th){
-            return $this->fail('Invalid Token')->setStatusCode(404);;
+        } catch (\Exception $e) {
+            return $this->failUnauthorized('Invalid Token');
         }
     }
 

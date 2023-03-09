@@ -6,3 +6,110 @@ in APPPATH\Controllers\Login.php on line 58.
  4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:52:02 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:52:22 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:52:28 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:52:59 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:53:05 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:53:18 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:53:20 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(65): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:54:01 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(59): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:57:59 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(59): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:58:43 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(59): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNSIsInVzZXJuYW1lIjoicml6YWwifQ.YL8K2rZE2BV9IskqHEW1fdaNn_bkTiicIjGEybrTckM', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 04:59:41 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 439.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(129): Firebase\JWT\JWT::getKey('csh65', null)
+ 2 APPPATH\Controllers\Login.php(59): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNCIsInVzZXJuYW1lIjoiYWRtaW4ifQ.GiOrxWuJQKFEouNaBS03K1S6BM1B_WXbxwNedEkiWsY', 'csh65', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->userlist()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 05:10:54 --> Argument 3 passed to Firebase\JWT\JWT::encode() must be of the type string, array given, called in D:\CV PORTFOLIO\CI - PROJECT\test_pratama\app\Controllers\Login.php on line 42
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Controllers\Login.php(42): Firebase\JWT\JWT::encode([...], 'csh65', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
